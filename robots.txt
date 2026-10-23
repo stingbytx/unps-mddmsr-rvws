@@ -1,0 +1,14 @@
+User-agent: *
+Allow: /
+
+# Block nothing — the whole site should be crawlable.
+# Admin / internal paths (none currently). If you add one, disallow it here.
+
+# Explicitly welcome major crawlers (optional, harmless)
+User-agent: Googlebot
+Allow: /
+
+User-agent: Bingbot
+Allow: /
+
+Sitemap: https://theunipos.org/sitemap.xml
